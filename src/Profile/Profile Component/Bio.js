@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Bio(bio) {
+function Bio({bio}) {
     return (
       <div className="u_bio">
         <p> {bio} </p>
