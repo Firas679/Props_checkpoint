@@ -10,7 +10,7 @@ function App() {
       <FullName name={'Firas Essid'} />
       <Bio bio={'Currently Student At GoMyCode'}/>
       <Profession profession ={'Student'}/>
-      <Photo/>
+      <Photo img={src='https:png.pngtree.com/png-vector/20190330/ourmid/pngtree-img-file-document-icon-png-image_892886.jpg'}/>
     </div>
   );
 }
