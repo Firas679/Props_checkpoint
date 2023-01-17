@@ -1,8 +1,8 @@
 import React from 'react';
-function Profession() {
+function Profession({profession}) {
     return (
       <div className="u_profession">
-        <p> Hopefully an a game DEV </p>
+        <p> {profession} </p>
       </div>
     );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Bio() {
+function Bio(bio) {
     return (
       <div className="u_bio">
-        <p> Currently Student at GoMyCode </p>
+        <p> {bio} </p>
       </div>
     );
 }

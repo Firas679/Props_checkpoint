@@ -1,8 +1,8 @@
 import React from 'react';
-function FullName() {
+function FullName({name}) {
     return (
         <div>
-           <h2> Firas Essid</h2> 
+           <h2> {name}</h2> 
         </div>
      );
 }
